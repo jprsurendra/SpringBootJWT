@@ -22,6 +22,23 @@ Response:
 
 
 
+API Url
+=======
+http://localhost:8080/api/v1/auth/authenticate
+Body:
+=======
+{
+"email": "surendrarathore.s@gmail.com",
+"password": "Rathore@39"
+}
+
+Response:
+========
+{
+"token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXJlbmRyYXJhdGhvcmUuc0BnbWFpbC5jb20iLCJpYXQiOjE2NzMzNjE1NTEsImV4cCI6MTY3MzM2Mjk5MX0.JZFth502QmGlIdrwgjEWTpUG1Zn6-5zZSPKaQDoLk3E"
+}
+
+
 
 
 API Url

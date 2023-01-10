@@ -1,4 +1,4 @@
-package com.ssr.jwt.security.auth;
+package com.ssr.jwt.vo.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.ssr.jwt.security.config;
+package com.ssr.jwt.config;
 
 
 import com.ssr.jwt.repository.UserRepository;

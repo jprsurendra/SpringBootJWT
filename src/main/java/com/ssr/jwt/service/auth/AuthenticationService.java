@@ -1,9 +1,12 @@
-package com.ssr.jwt.security.auth;
+package com.ssr.jwt.service.auth;
 
 import com.ssr.jwt.enums.Role;
 import com.ssr.jwt.model.User;
 import com.ssr.jwt.repository.UserRepository;
-import com.ssr.jwt.security.config.JwtService;
+import com.ssr.jwt.config.JwtService;
+import com.ssr.jwt.vo.request.RegisterRequest;
+import com.ssr.jwt.vo.request.auth.AuthenticationRequest;
+import com.ssr.jwt.vo.response.AuthenticationResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
